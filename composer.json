@@ -1,0 +1,26 @@
+{
+    "name": "metrakit/faker-eddy-malou",
+    "type": "library",
+    "description": "Use Eddy Malou sentences for your dummy texts",
+    "homepage": "https://github.com/Metrakit/faker-eddy-malou",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordane JOUFFROY",
+            "email": "contact@jordane.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "fzaninotto/faker": "~1"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metrakit\\EddyMalou\\": "src/"
+        }
+    }
+}
