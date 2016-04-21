@@ -12,7 +12,8 @@ composer require metrakit/faker-eddy-malou
 
 ```php
 $faker = new Faker\Generator();
-$faker->addProvider(new EddyMalouProvider($faker));
+$faker->addProvider(new Metrakit\EddyMalou\EddyMalouProvider($faker));
+$faker->addProvider(new Metrakit\EddyMalou\TextProvider($faker));
 
 ```
 
